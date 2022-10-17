@@ -11,3 +11,9 @@ fas-fa-plus{
 h1{
     color: #fffcf0;
 }
+
+.input {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 30px;
+}

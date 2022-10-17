@@ -19,7 +19,7 @@
         </div>
         <div class="col"><h1>HPLANTS</h1></div>
         <div class="col">
-        <input type="text" name="search" id="search" placeholder="faça sua busca" required>
+        <input class="input" type="text" name="search" id="search" placeholder="faça sua busca" required>
         <i class="fas fa-search"></i>
         </div> 
     </header>
