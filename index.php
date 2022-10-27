@@ -24,15 +24,23 @@
         </div> 
     </header>
 
-    <main  class="row">
-        
-
+    <main  class="row">>
+    <?php
+    for ($i = 1; $i <= 10 ; $i++) { 
+    ?>
+        <div class="card col-2 m-3" style="width: 18rem;">
+            <img class="base1" src="./img/orquidea.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Orquídea</a>
+            </div>
+          </div>
+    <?php
+    }
+    ?>
     </main>
-
-    <footer class="row">
-
+    <footer class="row3">
+      <p class="p1">Confira nossas redes sociais</p>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
