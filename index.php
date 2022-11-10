@@ -1,3 +1,7 @@
+<?php
+
+include_once 'conexao.php';
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,12 +30,18 @@
 
     <main  class="row">>
     <?php
-    for ($i = 1; $i <= 10 ; $i++) { 
+    $sql = "SELECT * FROM especies";
+    // executa o comando SQL no banco e retornar os dados
+    $result_query = mysqli_query( $conexao, $sql );
+    // laco de repeticao 
+    while ( $row = mysqli_fetch_array($result_query, MYSQLI_ASSOC) ) 
+    { 
+      
     ?>
         <div class="card col-2 m-3" style="width: 18rem;">
-            <img class="base1" src="./img/orquidea.webp" class="card-img-top" alt="...">
+            <img class="base1" src="./img/<?php echo $row['Foto']?>" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="btn btn-primary">Orquídea</a>
+              <a href="planta.php?id=<?php echo $row['EspecieID']?>" class="btn btn-primary"><?php echo $row['Nome']?></a>
             </div>
           </div>
     <?php
