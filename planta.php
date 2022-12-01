@@ -5,11 +5,11 @@ include_once 'conexao.php';
 
     <main id="plantas" class="row">
         <div class="col-4">
-            <img src="./img/orquidea.webp" alt="">
+            <img src="./img/orquidea.webp" alt="" class="imagem">
         </div>
         <div class="col-8">
-            <h1>orquideas</h1>
-            <h3>como cuidar?</h3>
+            <h2 class="nomeplanta">Orquideas</h2>
+            <h4>como cuidar?</h4>
             <p>os cuidados principais incluem agua, sol e espaço</p>
         </div>
         <div>
