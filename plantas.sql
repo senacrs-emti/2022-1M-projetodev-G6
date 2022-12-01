@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18-Nov-2022 às 13:31
+-- Tempo de geração: 01-Dez-2022 às 19:35
 -- Versão do servidor: 10.4.17-MariaDB
 -- versão do PHP: 7.3.27
 
@@ -24,6 +24,28 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `categorias`
+--
+
+CREATE TABLE `categorias` (
+  `CategoriaID` int(11) NOT NULL,
+  `Nome` varchar(255) NOT NULL,
+  `Texto` longtext DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `categorias`
+--
+
+INSERT INTO `categorias` (`CategoriaID`, `Nome`, `Texto`) VALUES
+(1, 'Girassois', NULL),
+(2, 'Rosas', NULL),
+(3, 'Cactus', NULL),
+(4, 'Samambaias', NULL);
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `plantas`
 --
 
@@ -40,6 +62,12 @@ CREATE TABLE `plantas` (
 --
 
 --
+-- Índices para tabela `categorias`
+--
+ALTER TABLE `categorias`
+  ADD PRIMARY KEY (`CategoriaID`);
+
+--
 -- Índices para tabela `plantas`
 --
 ALTER TABLE `plantas`
@@ -48,6 +76,12 @@ ALTER TABLE `plantas`
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `categorias`
+--
+ALTER TABLE `categorias`
+  MODIFY `CategoriaID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=301;
 
 --
 -- AUTO_INCREMENT de tabela `plantas`
