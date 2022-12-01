@@ -2,9 +2,9 @@
 include_once 'conexao.php';
 ?>
 
-    <main id="index" class="row">>
+    <main id="index" class="row">
     <?php
-    $sql = "SELECT * FROM especies";
+    $sql = "SELECT * FROM plantas";
     // executa o comando SQL no banco e retornar os dados
     $result_query = mysqli_query( $conexao, $sql );
     // laco de repeticao 

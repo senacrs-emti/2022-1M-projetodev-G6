@@ -11,7 +11,6 @@ include_once 'conexao.php';
             <h1>orquideas</h1>
             <h3>como cuidar?</h3>
             <p>os cuidados principais incluem agua, sol e espaço</p>
-            <h3>substrato</h3>
         </div>
         <div>
             <h2>inspirações</h2>
