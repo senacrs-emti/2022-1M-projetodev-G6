@@ -13,9 +13,9 @@ include_once 'conexao.php';
       
     ?>
         <div class="card col-2 m-3" style="width: 18rem;">
-            <img class="base1" src="./img/<?php echo $row['Foto']?>" class="card-img-top" alt="...">
+            <img class="base1" src="./img/<?php echo $row['Imagem']?>" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="planta.php?id=<?php echo $row['EspecieID']?>" class="btn btn-primary"><?php echo $row['Nome']?></a>
+              <a href="planta.php?id=<?php echo $row['PlantaID']?>" class="btn btn-primary"><?php echo $row['Nome']?></a>
             </div>
           </div>
     <?php
