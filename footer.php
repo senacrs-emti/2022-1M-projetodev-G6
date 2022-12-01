@@ -1,5 +1,5 @@
 <footer class="row3">
-     <footer class="bg-green text-center text-white">
+<footer class="bg-dark-green text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
@@ -39,9 +39,9 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="text-center p-3" style="background-color: #093f20 ;">
+    © 2020 Copyright: Mateus Machado e Giovanna Pandolfo
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
   </div>
   <!-- Copyright -->
 </footer>
