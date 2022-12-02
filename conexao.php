@@ -27,7 +27,6 @@ if (!$conexao) {
 
   <header class="row">
         <div class="col">
-        <i class="fas fa-plus"></i>
         </div>
         <div class="col"><h1>HPLANTS</h1></div>
         <div class="col">
