@@ -28,7 +28,7 @@ if (!$conexao) {
   <header class="row">
         <div class="col">
         </div>
-        <div class="col"><h1>HPLANTS</h1></div>
+       <a href="index.php"><div class="col"><h1>HPLANTS</h1></div></a> 
         <div class="col">
           <form action="busca.php" method="get">
             <input class="input" type="text" name="busca" id="search" placeholder="faça sua busca" required>

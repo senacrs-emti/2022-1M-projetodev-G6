@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 01-Dez-2022 às 22:06
+-- Tempo de geração: 02-Dez-2022 às 14:29
 -- Versão do servidor: 10.4.17-MariaDB
 -- versão do PHP: 7.3.27
 
@@ -75,13 +75,13 @@ INSERT INTO `plantas` (`PlantaID`, `Nome`, `CategoriaID`, `Cuidados`, `Imagem`) 
 (11, 'Rosa de chá', 3, 'É uma planta que precisa de bastante luminosidade e algumas horas de sol no dia. Um solo fértil e com uma boa drenagem é o ideal. No verão é recomendado regar a cada 2 ou 3 dias e no inverno de 5 em 5 dias.', 'rosadecha.jfif'),
 (12, 'Rosa arbustiva', 3, 'Precisa de muito sol todos os dias, ao menos 6 horas de luz direta. O mais recomendado é planta-la em solo com boa drenagem e muita materia orgânica. Regar duas vezes por semana e adubar uma vez a cada três meses.', 'rosaarbustiva.jfif'),
 (13, 'Rosa trepadeira', 3, 'Pelo menos 6 horas exposta no sol, regue todos os dias e adube três vezes no ano.', 'rosatrepadeira.jfif'),
-(14, 'Rosa rasteira', 3, '0', 'rosa-rasteira.jpg'),
-(15, 'Rosa Miniatura', 3, '0', 'rosaminiatura.jpg'),
-(16, 'Arranha céu', 4, '0', 'arranhaceu.jpg'),
-(17, 'Mamute russo', 4, '0', 'mamuterusso.jpg'),
-(18, 'Sundance kid', 4, '0', 'Girassol-Sundance-Kids.jpg'),
-(19, 'Sunny smile', 4, '0', 'sunnysmile.jfif'),
-(20, 'Pacino', 4, '0', 'pacino.jpg');
+(14, 'Rosa rasteira', 3, 'Precisa de bastante luminosidade e algumas horas por dia no sol. Um solo fértil e com uma boa drenagem é o ideal. No verão é recomendado regar 2 a 3 vezes na semana e no inverno de 5 em 5 dias.', 'rosa-rasteira.jpg'),
+(15, 'Rosa Miniatura', 3, 'Precisa de muito sol todos os dias, ao menos 6 horas de luz direta. O mais recomendado é planta-la em solo com boa drenagem e muita matéria orgânica. Regar duas vezes por semana e adubar uma vez a cada três meses.', 'rosaminiatura.jpg'),
+(16, 'Arranha céu', 4, 'É importante acompanhar como está seu crescimento, já que a quantidade de água deve ser boa, é recomendado colocar o dedo na terra para ver se ela está úmida, caso não, colocar mais água, mas nunca deixar encharcar. Eles gostam muito de sol então podemos deixar em lugares bem iluminados.', 'arranhaceu.jpg'),
+(17, 'Mamute russo', 4, 'É importante acompanhar como está seu crescimento, já que a quantidade de água deve ser boa, é recomendado colocar o dedo na terra para ver se ela está úmida, caso não, colocar mais água, mas nunca deixar encharcar. Eles gostam muito de sol então podemos deixar em lugares bem iluminados.', 'mamuterusso.jpg'),
+(18, 'Sundance kid', 4, 'É importante acompanhar como está seu crescimento, já que a quantidade de água deve ser boa, é recomendado colocar o dedo na terra para ver se ela está úmida, caso não, colocar mais água, mas nunca deixar encharcar. Eles gostam muito de sol então podemos deixar em lugares bem iluminados.', 'Girassol-Sundance-Kids.jpg'),
+(19, 'Sunny smile', 4, 'É importante acompanhar como está seu crescimento, já que a quantidade de água deve ser boa, é recomendado colocar o dedo na terra para ver se ela está úmida, caso não, colocar mais água, mas nunca deixar encharcar. Eles gostam muito de sol então podemos deixar em lugares bem iluminados.', 'sunnysmile.jfif'),
+(20, 'Pacino', 4, 'É importante acompanhar como está seu crescimento, já que a quantidade de água deve ser boa, é recomendado colocar o dedo na terra para ver se ela está úmida, caso não, colocar mais água, mas nunca deixar encharcar. Eles gostam muito de sol então podemos deixar em lugares bem iluminados.', 'pacino.jpg');
 
 --
 -- Índices para tabelas despejadas
