@@ -14,7 +14,7 @@ $dados = mysqli_fetch_array($result_query, MYSQLI_ASSOC);
 
     <main id="plantas" class="row">
         <div class="col-3">
-            <img src="./img/orquidea.webp" alt="" class="imagem">
+            <img src="./img/<?php echo $dados['Imagem']?>" alt="" class="imagem" ">
         </div>
         <div class="col-9">
             <h2 class="nomeplanta"><?php echo $dados['Nome']?></h2>

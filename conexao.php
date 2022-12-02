@@ -30,7 +30,9 @@ if (!$conexao) {
         </div>
         <div class="col"><h1>HPLANTS</h1></div>
         <div class="col">
-        <input class="input" type="text" name="search" id="search" placeholder="faça sua busca" required>
-        <i class="fas fa-search"></i>
+          <form action="busca.php" method="get">
+            <input class="input" type="text" name="busca" id="search" placeholder="faça sua busca" required>
+            <input type="submit"><i class="fas fa-search"></i></input>
+          </form>
         </div> 
     </header>
